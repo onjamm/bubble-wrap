@@ -40,7 +40,7 @@ int main() {
 
     bn::vector<bn::sprite_ptr, 10> circles = {};
 
-    for (int x = -40; x <= 40; x += 10) {
+    for (int x = -40; x <= 40; x += 15) {
         BN_LOG("x value: ", x);
         bn::sprite_ptr myCircle = bn::sprite_items::dot.create_sprite(x, 40);
         circles.push_back(myCircle);
